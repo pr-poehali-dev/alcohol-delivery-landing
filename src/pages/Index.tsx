@@ -74,7 +74,7 @@ const Index = () => {
                 <span className="block bg-gradient-to-r from-primary via-purple-400 to-secondary bg-clip-text text-transparent">
                   алкоголя
                 </span>
-                <span className="block">на дом</span>
+                <span className="block">в Новосибирске</span>
               </h1>
               <p className="text-xl text-muted-foreground max-w-xl">
                 Быстрая доставка качественного алкоголя в Новосибирске. Большой выбор напитков по доступным ценам.
