@@ -39,11 +39,6 @@ const Index = () => {
       icon: "DollarSign",
       title: "Низкие цены",
       description: "Выгодные предложения каждый день"
-    },
-    {
-      icon: "Heart",
-      title: "Широкий ассортимент",
-      description: "Более 500 позиций напитков"
     }
   ];
 
@@ -139,7 +134,7 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-20 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+          <div className="grid md:grid-cols-3 gap-6 mb-20 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             {features.map((feature, idx) => (
               <Card
                 key={idx}
